@@ -1,13 +1,14 @@
 //Colors
-$color-primary: rgba(57, 181, 74, 1);
-$color-secondary: rgba(74, 98, 181, 1);
+$color-primary: rgba(246, 214, 56, 1);
 $color-white: rgb(255, 255, 255);
 $color-black: rgb(0, 0, 0);
-$color-support: rgba(51, 51, 51, 1);
-$color-gray_100: rgba(242, 242, 242, 1);
-$color_gray-200: rgba(249, 249, 249, 1);
-$color-gray_300: rgba(188, 188, 188, 1);
+$color-support: rgba(25, 24, 25, 1);
+$color-context-1: rgba(66, 60, 109, 1);
+$color-context-2: rgba(112, 102, 186, 1);
+$color-context-2: rgba(183, 167, 214, 1);
 
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
 
 // Mixin Shadow
 @mixin box-shadow($shadow...) {
@@ -16,8 +17,8 @@ $color-gray_300: rgba(188, 188, 188, 1);
     box-shadow: $shadow;
 }
 
-%sombra-1 {
-    @include box-shadow(0px 21px 42px rgba(0,0,0, 0.05));
+%shadow-example {
+    @include box-shadow(0px 8px 16px rgba(0,0,0, 0.05));
 }
 
 // Mixin  transições
@@ -79,3 +80,8 @@ $color-gray_300: rgba(188, 188, 188, 1);
         @include height(48px);
     }
 }
+
+// Z-Index
+$zindex-default: 1;
+$zindex-header: 10;
+$zindex-overlay: 20;
