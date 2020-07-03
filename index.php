@@ -41,7 +41,37 @@
 
     <section class="container">
         <div class="content-1">
-            
+            <div class="row">
+                <div class="col-12 col-md-3 define">
+                    <h2> O que define a BEEBOX? </h2>
+                </div>
+                <div class="col-12 col-md-9 items-define">
+                    <ul>
+                        <li> 
+                            <img src="assets/svg/ico_criativo.svg" alt=""> 
+                            Conteúdo Criativo 
+                        </li>
+                        <li> 
+                            <img src="assets/svg/ico_estrategico.svg" alt="">
+                            Estratégico 
+                        </li>
+                        <li> 
+                            <img src="assets/svg/ico_originais.svg" alt="">
+                            Ideias Originais 
+                        </li>
+                    </ul>
+                    <ul>
+                        <li> 
+                            <img src="assets/svg/ico_dedicacao.svg" alt="">
+                            Feitas com dedicação 
+                        </li>
+                        <li> 
+                            <img src="assets/svg/ico_inclusivo.svg" alt="">
+                            Inclusivo 
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -255,18 +285,53 @@
         <div class="container">
             <h2> Precisa conversar sobre<br>
                 conteúdos que convertem? </h2>
-            <a href="javascript:;" class="cta"> Então vamos tomar um café :) </a>
+            <a href="javascript:;" class="cta"> 
+                <img src="assets/svg/ico_whatsapp.svg" alt="">
+                Então vamos tomar um café :) 
+            </a>
         </div>
     </section>
 
     <section class="contact container-fluid">
         <div class="row">
-            <div class="col-12 col-md-4">
-                <div class="img-contact"> </div>
+            <div class="col-12 col-md-4 m-0 p-0">
+                <div class="img-contact"> 
+                    <img src="assets/img/img_contato.png" alt="">
+                </div>
             </div>
-            <div class="col-12 col-md-6">
+            <div class="col-12 offset-0 col-md-4 offset-md-2">
                 <div class="form"> 
+                    <h2> Fale Conosco </h2>
+                    <form action="" method="POST">
+                        <div class="input-group">
+                            <label for="">
+                                Seu nome * 
+                            </label>
+                            <input type="text" name="" id="">
+                        </div>
 
+                        <div class="input-group">
+                            <label for="">
+                                E-mail * 
+                            </label>
+                            <input type="email" name="" id="">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="">
+                                Telefone * 
+                            </label>
+                            <input type="tel" name="" id="">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="">
+                                Como podemos te ajudar? * 
+                            </label>
+                            <textarea name="" id=""></textarea>
+                        </div>
+                        <input type="button" value="Enviar">
+                    </form>
                 </div>
             </div>
         </div>
