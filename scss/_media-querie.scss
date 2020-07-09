@@ -1,0 +1,235 @@
+@media (max-width: 1199px) {
+    
+    main {
+        h1 {
+            @include fontSize(64px);
+        }
+        p {
+            @include fontSize(24px);
+        }
+        .img-entrada {
+            @include width(550px);
+            height: auto;
+            right: 25%;
+        }
+    }
+
+    .content-1 {
+        .define h2 {
+            @include fontSize(32px);
+        }
+        .items-define {
+            ul {
+                li {
+                    @include fontSize(24px);
+                }
+            }
+        }
+    }
+    
+    .content-2 {
+        .servico {
+            @include height(470px);
+            h3 {
+                padding: 2rem 1rem 1rem 1rem;
+            }
+            p {
+                @include fontSize(16px);
+            }
+        }
+    }
+
+}
+
+@media (max-width: 991px) {
+    header {
+        .menu, .cta {
+            display: none;
+            visibility: hidden;
+        }
+    }
+
+    .menu-resp-icon {
+        display: block;
+        visibility: visible;;
+     }
+
+    main {
+        .link-scroll {
+            display: none;
+            visibility: hidden;
+        }
+        .img-entrada {
+            @include width(334px);
+            height: auto;
+            top: 7%;
+            right: 0%;
+        }
+    }
+
+    .content-1 {
+        .items-define {
+            ul {
+                li {
+                    margin-right: 1rem;
+                }
+            }
+        }
+    }
+
+    .content-2 {
+        .servico {
+            @include height(500px);
+            h3 {
+                padding: 2rem 1rem 1rem 1rem;
+            }
+        }
+    }
+
+    .menu, footer .info-footer-2 {
+        ul {
+            li {
+                display: block;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .content-1 {
+        @include height(440px);
+        > div {
+            padding: 2rem 0 0 0;
+        }
+        .define h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .items-define {
+            ul {
+                margin: 0;
+                li {
+                    display: block;
+                    text-align: center;
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+
+    .content-2 {
+        .servico {
+            width: 95%;
+            left: 5%;
+            @include height(450px);
+            p {
+                line-height: 24px;
+            }
+            .ico-servico {
+                left: -7%;
+            }
+        }
+    }
+    .quote {
+        border-top-left-radius: 5rem;
+        @include height(252px);
+        > div {
+            blockquote {
+                @include fontSize(24px);
+                line-height: 30px;
+                margin-top: 3rem;
+            }
+            .author {
+                h3 {
+                    @include fontSize(20px);
+                }
+            }
+        }
+    }
+
+    .cta-section {
+        @include height(252px);
+        > div {
+            h2 {
+                margin-top: 4rem;
+                @include fontSize(32px);
+            }
+        }
+    }
+
+    .content-5 {
+        border-top-left-radius: 5rem;
+        border-bottom-right-radius: 5rem;
+        padding: 2rem;
+    }
+
+    .cta-section-2 {
+        border-bottom-left-radius: 4rem;
+        > div {
+            h2 {
+                @include fontSize(24px);
+            }
+        }
+    }
+
+    .contact {
+        .div-img-contact {
+            display: none;
+            visibility: hidden;
+        }
+    }
+
+    .form {
+        h2 {
+            text-align: center !important;
+        }
+    }
+
+    .brand {
+        @include width(64px);
+        @include height(64px);
+    }
+
+    footer {
+        background-image: url(../assets/img/ilustra_rodape_responsivo.png);
+        background-position: bottom right;
+        .info-footer-1 {
+            border-bottom: none;
+            .slogan {
+                display: none;
+                visibility: hidden;
+            }
+        }
+        .info-footer-2 {
+            .menu {
+                width: 100%;
+                display: block;
+                border-bottom: 1px solid rgba($color-primary, .3);
+                ul{
+                    li {
+                        margin-bottom: 2rem;
+                    }
+                }
+            }
+            .contatos {
+                width: 100%;
+                text-align: left;
+                margin-top: 2rem;
+                li {
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+    }
+
+    // Gerais
+    section > h2, .contact .form h2 {
+        @include fontSize(32px);
+    }
+    .content-1, .content-2, .content-3, .cta-section, .content-4, .cta-section-2, .contact {
+        margin-bottom: 7rem;
+     }
+
+}

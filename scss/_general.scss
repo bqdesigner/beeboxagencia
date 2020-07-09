@@ -1,5 +1,5 @@
 @import 'guide';
-
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 ::selection {
    background: $color-primary;
    color: $color-white;
@@ -24,6 +24,56 @@ header {
       align-items: center;
    }
 }
+.menu-resp-icon {
+   display: none;
+   visibility: hidden;
+}
+.menu-resp-icon {
+   position: absolute;
+   top: 2.5rem;
+   right: 1rem;
+   display: none;
+   visibility: hidden;
+   @include width(30px);
+   @include height(25px);
+   z-index: $zindex-overlay; 
+   span {
+       background: $color-primary;
+       display: block;
+       @include height(3px);
+       position: absolute;
+       transition: all 0.3s ease-in-out;
+       &:nth-child(1) {
+           top: 0;
+           width: 100%;
+       }
+       &:nth-child(2) {
+           top: 10px;
+           width: 66%;
+           left: 34%
+       }
+       &:nth-child(3) {
+           top: 20px;
+           width: 33%;
+           left: 67%
+       }
+   }
+   &.active{
+       span:nth-child(1) {
+         top: 15px;
+         transform: rotate(45deg);
+       }
+       span:nth-child(2) {
+         opacity: 0;
+       }
+       span:nth-child(3) {
+         top: 15px;
+         transform: rotate(-45deg);
+       }
+   }
+}
+
+
 .menu, footer .info-footer-2 {
    ul {
       list-style: none;
@@ -92,6 +142,44 @@ main {
       position: relative;
    }
 }
+
+// Elemento fixo
+.element-fixed {
+   z-index: $zindex-overlay;
+   position: fixed;
+   bottom: 0;
+   right: 0;
+   margin: 0 2rem 2rem 0;
+   opacity: 0;
+   visibility: hidden;
+   @include fontSize(20px);
+   width: 3rem;
+   height: 3rem;
+   border-radius: 6rem;
+   background: $color-primary;
+   @include transition(all 0.3s ease-in-out 0s);
+   @include box-shadow(0px 8px 16px rgba($color-primary, 0.14));
+   &:hover {
+      background-color: $color-primary;
+      filter: brightness(80%);
+   }
+   &::after {
+      content: '\f062';
+      font-family: FontAwesome;
+      @include width(20px);
+      @include height(20px);
+      color: $color-context-1;
+      left: .9rem;
+      top: .5rem;
+      position: relative;
+   }
+}
+
+.scroll-fixed {
+   opacity: 1 !important;
+   visibility: visible !important;
+ }
+ 
 
 // O que define a BEEBOX?
 .content-1 {
@@ -446,7 +534,10 @@ footer {
    }
    .info-footer-2 {
       .contatos {
+         text-align: right;
          li {
+            margin: 0;
+            padding: 0;
             &:first-child {
                &::before {
                   @include width(24px);
