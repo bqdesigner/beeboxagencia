@@ -37,8 +37,11 @@
         <div class="container">
            <div class="row">
                <div class="col-12 col-md-6">
-                    <h1> Conteúdo<br> Criativo</h1>
-                    <p> Construímos ótimas experiências para clientes incríveis.</p>
+                    <h1> Get Out<br> Of The Box</h1>
+                    <p> O que você precisa?
+                    </p>
+                    <p class="call"> + Seguidores, + Engajamento, + Tráfego e Conversão ou todas as opções anteriores?
+                    </p>
                     <a href="#oquedefine" class="link-scroll animate-flicker scroll"> Role para baixo </a>
                </div>
                <div class="col-12 col-md-6">
@@ -93,11 +96,16 @@
             <div class="col-12 offset-0 col-md-6 col-lg-5 offset-lg-1">
                 <div class="servico">
                     <span class="ico-servico ico-servico-content-1"> 
-                        <img src="assets/svg/ico_servico.svg" alt="">
+                        <img src="assets/svg/ico_gerenciamento.svg" alt="">
                     </span>
-                    <h3> Social Media </h3>
+                    <h3> Gerenciamento de Mídias Sociais </h3>
                     <p> 
-                        Mussum Ipsum, cacilds vidis litro abertis. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Cevadis im ampola pa arma uma pindureta. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Nam vulputate dapibus. Cevadis im ampola pa arma uma pindureta. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.
+                        Facebook, Instagram, Linkedin, Whatsapp <br>
+                        Criação de conteúdo (imagem + texto) <br>
+                        Publicação <br>
+                        Gerenciamento <br>
+                        Campanhas <br>
+                        Análise de Hashtags <br>
                     </p>
                 </div>
             </div>
@@ -105,11 +113,11 @@
             <div class="col-12 col-md-6 col-lg-5">
                 <div class="servico">
                     <span class="ico-servico ico-servico-content-2"> 
-                        <img src="assets/svg/ico_servico.svg" alt="">
+                        <img src="assets/svg/ico_conteudo.svg" alt="">
                     </span>
-                    <h3> Social Media </h3>
+                    <h3> Criação de Conteúdo </h3>
                     <p> 
-                        Mussum Ipsum, cacilds vidis litro abertis. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Cevadis im ampola pa arma uma pindureta. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Nam vulputate dapibus. Cevadis im ampola pa arma uma pindureta. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.
+                        Produção de materiais para Blogs que impulsionam o tráfico de seu site ou Tabloides de ofertas digital que destacam a sua marca. Não importa o seu nicho, a Bee Box te ajuda a sair fora da caixa.
                     </p>
                 </div>
             </div>
@@ -117,11 +125,11 @@
             <div class="col-12 offset-0 col-md-6 col-lg-5 offset-lg-1">
                 <div class="servico">
                     <span class="ico-servico ico-servico-content-3"> 
-                        <img src="assets/svg/ico_servico.svg" alt="">
+                        <img src="assets/svg/ico_anuncio.svg" alt="">
                     </span>
-                    <h3> Social Media </h3>
+                    <h3> Anúncios </h3>
                     <p> 
-                        Mussum Ipsum, cacilds vidis litro abertis. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Cevadis im ampola pa arma uma pindureta. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Nam vulputate dapibus. Cevadis im ampola pa arma uma pindureta. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.
+                        Você já deve ter falado sobre um produto ao usar uma rede social e logo em seguida, ele estava bem ali na sua frente ao rolar o feed ou timeline. Parece mágica, mas e se esse produto fosse a sua empresa, serviço ou marca?
                     </p>
                 </div>
             </div>
@@ -129,11 +137,14 @@
             <div class="col-12 col-md-6 col-lg-5">
                 <div class="servico">
                     <span class="ico-servico ico-servico-content-4"> 
-                        <img src="assets/svg/ico_servico.svg" alt="">
+                        <img src="assets/svg/ico_consultoria_mkt.svg" alt="">
                     </span>
-                    <h3> Social Media </h3>
+                    <h3> Consultoria de Marketing </h3>
                     <p> 
-                        Mussum Ipsum, cacilds vidis litro abertis. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Cevadis im ampola pa arma uma pindureta. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Nam vulputate dapibus. Cevadis im ampola pa arma uma pindureta. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.
+                        Quem está buscando o seu serviço? Quais as mídias devo impulsionar? Que linguagem utilizar?
+                        Essas são algumas das perguntas que você deve estar se fazendo ao entrar no marketing
+                        digital. Sabemos que não é fácil navegar neste universo digital, por isso, vamos te ajudar a
+                        obter crescimento naquilo que você precisa.
                     </p>
                 </div>
             </div>
@@ -146,41 +157,41 @@
         <div class="row">
             <div class="col-12 col-md-6 case">
                 <div class="case-img">
-                    <img src="assets/img/job1.png" alt="">
+                    <img src="assets/img/case_1_work4all.jpg" alt="">
                 </div>
                 <div class="case-content">
-                    <span> Nome do cliente </span>
-                    <h3> Posts para Instagram </h3>
+                    <span> Work4aAll </span>
+                    <h3> Criação de conteúdo e artes </h3>
                 </div>
             </div>
 
             <div class="col-12 col-md-6 case">
                 <div class="case-img">
-                    <img src="assets/img/job1.png" alt="">
+                    <img src="assets/img/case_2_mls.jpg" alt="">
                 </div>
                 <div class="case-content case">
-                    <span> Nome do cliente </span>
-                    <h3> Posts para Instagram </h3>
+                    <span> My Little Secrets </span>
+                    <h3> Criação de conteúdo e artes </h3>
                 </div>
             </div>
 
             <div class="col-12 col-md-6 case">
                 <div class="case-img">
-                    <img src="assets/img/job1.png" alt="">
+                    <img src="assets/img/case_3_massoterapeuta_tatyane.jpg" alt="">
                 </div>
                 <div class="case-content">
-                    <span> Nome do cliente </span>
-                    <h3> Posts para Instagram </h3>
+                    <span> Massoterapeuta Tatyane </span>
+                    <h3> Gerenciamento e Consultoria </h3>
                 </div>
             </div>
 
             <div class="col-12 col-md-6 case">
                 <div class="case-img">
-                    <img src="assets/img/job1.png" alt="">
+                    <img src="assets/img/case_4_twig.jpg" alt="">
                 </div>
                 <div class="case-content">
-                    <span> Nome do cliente </span>
-                    <h3> Posts para Instagram </h3>
+                    <span> Twig </span>
+                    <h3> Criação de conteúdo e artes </h3>
                 </div>
             </div>
 
@@ -356,17 +367,17 @@
                 <span class="slogan"> #getoutofthebox </span>
                 <ul class="redes-sociais">
                     <li> 
-                        <a href="#"> 
+                        <a href="https://www.facebook.com/Ag%C3%AAncia-Bee-Box-113560353724333/" target="blank"> 
                             <img src="assets/svg/ico_facebook.svg" alt="">
                         </a> 
                     </li>
                     <li> 
-                        <a href="#"> 
+                        <a href="https://www.instagram.com/agenciabeebox/" target="blank"> 
                             <img src="assets/svg/ico_instagram.svg" alt="">
                         </a> 
                     </li>
                     <li> 
-                        <a href="#"> 
+                        <a href="https://www.linkedin.com/company/ag%C3%AAncia-bee-box" target="blank"> 
                             <img src="assets/svg/ico_linkedin.svg" alt="">
                         </a> 
                     </li>
@@ -377,20 +388,23 @@
                     <div class="col-12 col-md-5">
                         <nav class="menu">
                             <ul>
-                                <li> <a href="javascript:;"> O que fazemos? </a> </li>
-                                <li> <a href="javascript:;"> Cases </a> </li>
-                                <li> <a href="javascript:;"> Clientes </a> </li>
+                                <li> <a href="#oquefazemos" class="scroll"> O que fazemos? </a> </li>
+                                <li> <a href="#cases" class="scroll"> Cases </a> </li>
+                                <li> <a href="#clientes" class="scroll"> Clientes </a> </li>
                             </ul>
                         </nav>
                     </div>
                     <div class="col-12 col-md-7">
                         <ul class="contatos">
                             <li>
-                                <a href="#"> contato@beeboxagencia.com </a>
+                                <a href="mailto:beebox.ag@gmail.com"> beebox.ag@gmail.com </a>
                             </li>
                             <li>
-                                <a href="#"> (11) - 90000-0000 </a>
+                                <a href="tel:11993593186"> (11) 9 9359-3186 </a>
                             </li>
+                            <!-- <li>
+                                <a href="tel:11993593186"> (11) 9 9359-3186 </a>
+                            </li> -->
                         </ul>
                     </div>
                 </div>
