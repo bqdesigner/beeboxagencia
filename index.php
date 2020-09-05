@@ -319,7 +319,7 @@
         <div class="row">
             <div class="col-12 col-md-4 m-0 p-0 div-img-contact">
                 <div class="img-contact"> 
-                    <img src="assets/img/img_contato.png" alt="">
+                    <!-- <img src="assets/img/img_contato.jpg" alt=""> -->
                 </div>
             </div>
             <div class="col-12 offset-0 col-md-5 offset-md-1 col-lg-6">
