@@ -3,9 +3,9 @@
 <head>
     <meta name="theme-color" content="#423c6d">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Empresa integradora de soluções de engenharia e projetos de alta complexidade." />
+    <meta name="description" content="Agência de marketing digital. Impulsione os números de sua empresa: Conteúdo para redes sociais, campanhas, anúncios, consultoria de Marketing. " />
     <meta name="keywords"
-        content="água fria, água quente, esgoto, irrigação, projeto de piscina, aquecimento solar, aquecimento elétrico, ventilação, drenos de ar condicionado, projeto de gás, Distribuição dos circuitos, telefonia, lógica, CFTV, antena infraestrutura seca, SPDA, diagramas, Renovação de ar, Exaustão e Climatização, Hidrantes, Extintores e Sprinklers,  Fundação, Vigas, Pilares, Lajes, Estrutura de concreto armado, estrutura metálica, alvenaria estrutural, Projetos especiais de gases medicinais, hidráulica, ar condicionado, Reformas,  ampliações" />
+        content="conteúdo, marketing de conteúdo, online marketing, conteúdo digital, design, mkt digital, agencia, agência, agência de marketing, marketing estratégico, resultados, conteúdos para blog, conteúdos para redes sociais, redes sociais, instagram , facebook, linkedin, whatsapp, tiktok, pinterest, tabloide, facebook ads, anúncios no facebook, anúncios no instagram, empreender, especialista em marketing digital, negócios online, negócios digitais, e-commerce, tráfego, engajamento, conversão, mais seguidores, destaque, SEO, conteúdo criativo, ideias originais, campanhas, hashtags personalizada, consultoria de marketing, consultoria, consultoria online, anúncio" />
     <meta name="robots" content="index, follow">
     <meta property="og:locale" content="pt_BR">
     <meta property="og:url" content="https://agenciabeebox.com.br/">

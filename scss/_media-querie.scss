@@ -102,6 +102,7 @@
     main {
         h1 {
             margin-top: 0rem;
+            @include fontSize(48px);
         }
         .img-entrada {
             top: 0%;
