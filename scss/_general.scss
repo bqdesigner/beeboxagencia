@@ -322,7 +322,7 @@ main {
    position: relative;
    left: 5%;
    background-color: $color-context-2;
-   > div {
+   .info-quote > div {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -509,7 +509,7 @@ main {
          border-radius: 4px;
          margin-bottom: 2rem;
       }
-      input[type="button"] {
+      input[type="submit"] {
          width: 100%;
          border: none;
          @extend %btn-structure;
@@ -561,6 +561,7 @@ footer {
             margin: 0;
             padding: 0;
             &:nth-child(1) {
+               margin: 0 1rem 1rem 0;
                &::before {
                   @include width(24px);
                   @include height(24px);
@@ -575,20 +576,8 @@ footer {
                   @include width(24px);
                   @include height(24px);
                   top: .5rem;
-                  margin-left: .5rem;
                   margin-right: .5rem;
                   content: url(../assets/svg/ico_whatsapp_yellow.svg);
-                  position: relative;
-               }
-            }
-            &:nth-child(3) {
-               &::before {
-                  @include width(24px);
-                  @include height(24px);
-                  top: .5rem;
-                  margin-left: .5rem;
-                  margin-right: .5rem;
-                  content: url(../assets/svg/ico_phone.svg);
                   position: relative;
                }
             }

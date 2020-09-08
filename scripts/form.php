@@ -1,13 +1,19 @@
 <?php
 
 // Passando os dados obtidos pelo formulário para as variáveis abaixo
+$nomeremetente     = $_POST['nome'];
 $emailremetente    = trim($_POST['email']);
-$emaildestinatario = 'bantoficial@gmail.com'; // Digite seu e-mail aqui, lembrando que o e-mail deve estar em seu servidor web
+$fone	   = $_POST['tel'];
+$emaildestinatario = 'bqdesigner@outlook.com'; 
 $assunto		   = 'Contato BEEBOX AGÊNCIA';
+$descProjeto	   = $_POST['msg'];
  
 /* Montando a mensagem a ser enviada no corpo do e-mail. */
 $mensagemHTML = '<P>FORMULARIO PREENCHIDO EM BEEBOX AGENCIA</P>
+<p><b>Seu nome:</b> '.$nomeremetente.'
 <p><b>E-Mail:</b> '.$emailremetente.'
+<p><b>Telefone:</b> '.$fone.'
+<p><b>Como podemos te ajudar:</b> '.$descProjeto.'
 <hr>';
 
 // O remetente deve ser um e-mail do seu domínio conforme determina a RFC 822.

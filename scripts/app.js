@@ -18,3 +18,17 @@ $(function(scrollFixed){
 });
 
 
+// Random quotes
+function quoteRandom () {
+    var quotes = $('.info-quote');
+
+    if (quotes.length) {
+        var display = Math.floor(Math.random() * quotes.length);
+        for (var i = 0; i < quotes.length; i++) {
+            if (i !== display) {
+                $(quotes[i]).hide();
+            }
+        }
+    }
+}
+

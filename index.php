@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#423c6d">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Empresa integradora de soluções de engenharia e projetos de alta complexidade." />
+    <meta name="keywords"
+        content="água fria, água quente, esgoto, irrigação, projeto de piscina, aquecimento solar, aquecimento elétrico, ventilação, drenos de ar condicionado, projeto de gás, Distribuição dos circuitos, telefonia, lógica, CFTV, antena infraestrutura seca, SPDA, diagramas, Renovação de ar, Exaustão e Climatização, Hidrantes, Extintores e Sprinklers,  Fundação, Vigas, Pilares, Lajes, Estrutura de concreto armado, estrutura metálica, alvenaria estrutural, Projetos especiais de gases medicinais, hidráulica, ar condicionado, Reformas,  ampliações" />
+    <meta name="robots" content="index, follow">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:url" content="https://agenciabeebox.com.br/">
+    <meta property="og:title" content="BEEBOX Agência">
+    <meta property="og:site_name" content="BEEBOX Agência">
+    <meta property="og:description"
+        content="Empresa integradora de soluções de engenharia e projetos de alta complexidade.">
+    <meta property="og:image" content="https://agenciabeebox.com.br/assets/img/meta.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="600">
     <title> BEEBOX AGÊNCIA </title>
     <!-- CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/png" href="assets/img/favicon.png" />
 </head>
-<body id="up">
+<body id="up" onload="quoteRandom()">
 
     <header>
         <div class="container">
@@ -40,7 +54,7 @@
                     <h1> Get Out<br> Of The Box</h1>
                     <p> O que você precisa?
                     </p>
-                    <p class="call"> + Seguidores, + Engajamento, + Tráfego e Conversão ou todas as opções anteriores?
+                    <p class="call"> + Seguidores, + Engajamento, + Tráfego e Conversão ou <span>todas as opções anteriores?</span>
                     </p>
                     <a href="#oquedefine" class="link-scroll animate-flicker scroll"> Role para baixo </a>
                </div>
@@ -199,13 +213,26 @@
     </section>
 
     <section class="quote">
-        <div class="container">
-            <blockquote>
-                A marca para uma empresa é como a reputação para uma pessoa.
-            </blockquote>
-            <div class="author">
-                <img src="assets/img/img_jeff_bezos.png" alt="">
-                <h3> Jeff Bezos - CEO AMAZON </h3>
+        <div class="info-quote">
+            <div class="container">
+                <blockquote>
+                    "A maneira mais fácil de chamar a atenção de alguém é essa: quebrando um padrão."
+                </blockquote>
+                <div class="author">
+                    <img src="assets/img/img_quote_1.png" alt="">
+                    <h3> Dan & Chip Heath </h3>
+                </div>
+            </div>
+        </div>
+        <div class="info-quote">
+            <div class="container">
+                <blockquote>
+                    ”Antes de criar mais ótimos conteúdos descubra primeiro como você vai divulgá-lo.”
+                </blockquote>
+                <div class="author">
+                    <img src="assets/img/img_quote_2.png" alt="">
+                    <h3> Joe Pulizzi e Newt Barrett </h3>
+                </div>
             </div>
         </div>
     </section>
@@ -325,35 +352,35 @@
             <div class="col-12 offset-0 col-md-5 offset-md-1 col-lg-6">
                 <div class="form"> 
                     <h2> Fale Conosco </h2>
-                    <form action="" method="POST">
+                    <form action="scripts/form.php" method="POST">
                         <div class="input-group">
                             <label for="">
                                 Seu nome * 
                             </label>
-                            <input type="text" name="" id="">
+                            <input type="text" name="nome" id="nome" required>
                         </div>
 
                         <div class="input-group">
                             <label for="">
                                 E-mail * 
                             </label>
-                            <input type="email" name="" id="">
+                            <input type="email" name="email" id="email" required>
                         </div>
 
                         <div class="input-group">
                             <label for="">
                                 Telefone * 
                             </label>
-                            <input type="tel" name="" id="">
+                            <input type="tel" name="tel" id="tel" required>
                         </div>
 
                         <div class="input-group">
                             <label for="">
                                 Como podemos te ajudar? * 
                             </label>
-                            <textarea name="" id=""></textarea>
+                            <textarea name="msg" id="msg" required></textarea>
                         </div>
-                        <input type="button" value="Enviar">
+                        <input type="submit" value="Enviar">
                     </form>
                 </div>
             </div>
