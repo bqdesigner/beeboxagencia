@@ -43,7 +43,7 @@
 
 @media (max-width: 991px) {
     header {
-        .menu, .cta {
+        .menu{
             display: none;
             visibility: hidden;
         }
@@ -52,7 +52,8 @@
     .menu-resp-icon {
         display: block;
         visibility: visible;;
-     }
+    }
+
 
     main {
         .link-scroll {

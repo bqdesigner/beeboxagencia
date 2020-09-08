@@ -39,11 +39,11 @@
         </div>
 
         <!-- hamburger -->
-        <a href="#" class="menu-resp-icon">
+        <!-- <a href="#" class="menu-resp-icon">
             <span></span>
             <span></span>
             <span></span>
-        </a>
+        </a> -->
         <!-- end hamburger -->
 
     </header> 
