@@ -68,8 +68,8 @@ $color-context-3: rgba(183, 167, 214, 1);
         @include box-shadow(0px 10px 20px rgba($color-primary, 0.18));
     }
     @media (max-width: 767px) {
-        padding: .8rem .8rem;
-        @include fontSize(12px);
+        padding: 1rem 1rem;
+        @include fontSize(14px);
     }
 }
 

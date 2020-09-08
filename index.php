@@ -35,7 +35,7 @@
                     <li> <a href="#clientes" class="scroll"> Clientes </a> </li>
                 </ul>
             </nav>
-            <a href="#cadastrar" class="cta scroll"> Faça parte da transformação </a>
+            <a href="#cadastrar" class="cta scroll"> Quero sair da caixa 🐝</a>
         </div>
 
         <!-- hamburger -->
