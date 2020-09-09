@@ -12,7 +12,7 @@
     <meta property="og:title" content="BEEBOX Agência">
     <meta property="og:site_name" content="BEEBOX Agência">
     <meta property="og:description"
-        content="Empresa integradora de soluções de engenharia e projetos de alta complexidade.">
+        content="Agência de marketing digital. Impulsione os números de sua empresa: Conteúdo para redes sociais, campanhas, anúncios, consultoria de Marketing.">
     <meta property="og:image" content="https://agenciabeebox.com.br/assets/img/meta.jpg">
     <meta property="og:image:type" content="image/jpeg">
     <meta property="og:image:width" content="800">
