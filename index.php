@@ -354,31 +354,31 @@
                     <h2> Fale Conosco </h2>
                     <form action="scripts/form.php" method="POST">
                         <div class="input-group">
-                            <label for="">
+                            <label for="nome">
                                 Seu nome * 
                             </label>
                             <input type="text" name="nome" id="nome" required aria-label="Digite o seu nome completo">
                         </div>
 
                         <div class="input-group">
-                            <label for="">
+                            <label for="email">
                                 E-mail * 
                             </label>
                             <input type="email" name="email" id="email" required aria-label="Digite o seu email">
                         </div>
 
                         <div class="input-group">
-                            <label for="">
+                            <label for="tel">
                                 Telefone * 
                             </label>
                             <input type="tel" name="tel" id="tel" required aria-label="Digite o seu telefone">
                         </div>
 
                         <div class="input-group">
-                            <label for="">
+                            <label for="msg">
                                 Como podemos te ajudar? * 
                             </label>
-                            <textarea name="msg" id="msg" required></textarea aria-label="Digite como a BEEBOX pode ajudar você.">
+                            <textarea name="msg" id="msg" required aria-label="Digite como a BEEBOX pode ajudar você."></textarea >
                         </div>
                         <input type="submit" value="Enviar" aria-label="Botão para enviar os seus dados para a BEEBOX.">
                     </form>
