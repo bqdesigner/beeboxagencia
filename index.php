@@ -27,15 +27,15 @@
 
     <header>
         <div class="container">
-            <img src="assets/svg/logo_color.svg" alt="Logo BeeBox Agência" class="brand">
+            <img src="assets/svg/logo_color.svg" alt="Logo BeeBox Agência" class="brand" alt="Logo da empresa, escrito BEEBOX Agência, com um desenho de uma abelha simplificada, composta por 4 formas hexagonais, em amarelo e branco.">
             <nav class="menu">
                 <ul>
-                    <li> <a href="#oquefazemos" class="scroll"> O que fazemos? </a> </li>
-                    <li> <a href="#cases" class="scroll"> Cases </a> </li>
-                    <li> <a href="#clientes" class="scroll"> Clientes </a> </li>
+                    <li> <a href="#oquefazemos" class="scroll" aria-label="Link ancora que te leva para O que fazemos"> O que fazemos? </a> </li>
+                    <li> <a href="#cases" class="scroll" aria-label="Link ancora que te leva para os trabalhos criados para clientes"> Cases </a> </li>
+                    <li> <a href="#clientes" class="scroll" aria-label="Link ancora que te leva para os depoimentos de clientes"> Clientes </a> </li>
                 </ul>
             </nav>
-            <a href="#cadastrar" class="cta scroll"> Quero sair da caixa 🐝</a>
+            <a href="#cadastrar" class="cta scroll" aria-label="Link ancora que te leva para o formulário de contato"> Quero sair da caixa 🐝</a>
         </div>
 
         <!-- hamburger -->
@@ -59,14 +59,14 @@
                     <a href="#oquedefine" class="link-scroll animate-flicker scroll"> Role para baixo </a>
                </div>
                <div class="col-12 col-md-6">
-                    <img src="assets/img/img_entrada.png" class="img-entrada" alt="">
+                    <img src="assets/img/img_entrada.png" class="img-entrada" alt="Formas hexagonais juntas, formando uma abelha, onde dentro tem uma imagem de pessoas realizndo uma reunião, com diversos postits na parede. ">
                </div>
            </div>
         </div>
     </main>
 
     <!-- Anchor element fixed -->
-    <a href="#up" class="scroll"><div class="element-fixed"></div></a>
+    <a href="#up" class="scroll" aria-label="Link que aparece ao descer o conteúdo do site. Serve para redirecionar você para o topo do site."><div class="element-fixed"></div></a>
 
     <section class="container">
         <div class="content-1" id="oquedefine">
@@ -77,25 +77,25 @@
                 <div class="col-12 col-md-8 col-lg-9 items-define">
                     <ul>
                         <li> 
-                            <img src="assets/svg/ico_criativo.svg" alt=""> 
+                            <img src="assets/svg/ico_criativo.svg" alt="Ícone de Conteúdo Criativo, simbolozado por um cubo."> 
                             Conteúdo Criativo 
                         </li>
                         <li> 
-                            <img src="assets/svg/ico_estrategico.svg" alt="">
+                            <img src="assets/svg/ico_estrategico.svg" alt="Ícone de Estratégia, simbolizado com um desenho de um alvo.">
                             Estratégico 
                         </li>
                         <li> 
-                            <img src="assets/svg/ico_originais.svg" alt="">
+                            <img src="assets/svg/ico_originais.svg" alt="Ícone de Ideias originais, simbolizado por uma lápis pena">
                             Ideias Originais 
                         </li>
                     </ul>
                     <ul>
                         <li> 
-                            <img src="assets/svg/ico_dedicacao.svg" alt="">
+                            <img src="assets/svg/ico_dedicacao.svg" alt="Ícone de feitas com dedicação, simbolizado por uma estrela.">
                             Feitas com dedicação 
                         </li>
                         <li> 
-                            <img src="assets/svg/ico_inclusivo.svg" alt="">
+                            <img src="assets/svg/ico_inclusivo.svg" alt="Ícone de inclusivo, simbolizado por um coração.">
                             Inclusivo 
                         </li>
                     </ul>
@@ -110,7 +110,7 @@
             <div class="col-12 offset-0 col-md-6 col-lg-5 offset-lg-1">
                 <div class="servico">
                     <span class="ico-servico ico-servico-content-1"> 
-                        <img src="assets/svg/ico_gerenciamento.svg" alt="">
+                        <img src="assets/svg/ico_gerenciamento.svg" alt="Ícone de gerenciamento de mídias sociais, simbolizado por um barras, uma grande e outra pequena, como medidas.">
                     </span>
                     <h3> Gerenciamento de Mídias Sociais </h3>
                     <p> 
@@ -127,7 +127,7 @@
             <div class="col-12 col-md-6 col-lg-5">
                 <div class="servico">
                     <span class="ico-servico ico-servico-content-2"> 
-                        <img src="assets/svg/ico_conteudo.svg" alt="">
+                        <img src="assets/svg/ico_conteudo.svg" alt="Ícone de criação de conteúdo, simbolizado por formas geométricas em camadas">
                     </span>
                     <h3> Criação de Conteúdo </h3>
                     <p> 
@@ -139,7 +139,7 @@
             <div class="col-12 offset-0 col-md-6 col-lg-5 offset-lg-1">
                 <div class="servico">
                     <span class="ico-servico ico-servico-content-3"> 
-                        <img src="assets/svg/ico_anuncio.svg" alt="">
+                        <img src="assets/svg/ico_anuncio.svg" alt="Ícone sobre anúncios, simbolizado por uma boia">
                     </span>
                     <h3> Anúncios </h3>
                     <p> 
@@ -151,7 +151,7 @@
             <div class="col-12 col-md-6 col-lg-5">
                 <div class="servico">
                     <span class="ico-servico ico-servico-content-4"> 
-                        <img src="assets/svg/ico_consultoria_mkt.svg" alt="">
+                        <img src="assets/svg/ico_consultoria_mkt.svg" alt="Ícone de consultoria de Marketing, simbolizado por uma mira.">
                     </span>
                     <h3> Consultoria de Marketing </h3>
                     <p> 
@@ -171,7 +171,7 @@
         <div class="row">
             <div class="col-12 col-md-6 case">
                 <div class="case-img">
-                    <img src="assets/img/case_1_work4all.jpg" alt="">
+                    <img src="assets/img/case_1_work4all.jpg" alt="Imagens com os trabalhos de social media feitos para Work4All">
                 </div>
                 <div class="case-content">
                     <span> Work4aAll </span>
@@ -181,7 +181,7 @@
 
             <div class="col-12 col-md-6 case">
                 <div class="case-img">
-                    <img src="assets/img/case_2_mls.jpg" alt="">
+                    <img src="assets/img/case_2_mls.jpg" alt="Imagens com os trabalhos de social media feitos para My Little Secrets">
                 </div>
                 <div class="case-content case">
                     <span> My Little Secrets </span>
@@ -191,7 +191,7 @@
 
             <div class="col-12 col-md-6 case">
                 <div class="case-img">
-                    <img src="assets/img/case_3_massoterapeuta_tatyane.jpg" alt="">
+                    <img src="assets/img/case_3_massoterapeuta_tatyane.jpg" alt="Imagens com os trabalhos de social media feitos para Massoterapeuta Tatyane">
                 </div>
                 <div class="case-content">
                     <span> Massoterapeuta Tatyane </span>
@@ -201,7 +201,7 @@
 
             <div class="col-12 col-md-6 case">
                 <div class="case-img">
-                    <img src="assets/img/case_4_twig.jpg" alt="">
+                    <img src="assets/img/case_4_twig.jpg" alt="Imagens com os trabalhos de social media feitos para Twig">
                 </div>
                 <div class="case-content">
                     <span> Twig </span>
@@ -219,7 +219,7 @@
                     "A maneira mais fácil de chamar a atenção de alguém é essa: quebrando um padrão."
                 </blockquote>
                 <div class="author">
-                    <img src="assets/img/img_quote_1.png" alt="">
+                    <img src="assets/img/img_quote_1.png" alt="Foto de rosto Dan & Chip Heath ">
                     <h3> Dan & Chip Heath </h3>
                 </div>
             </div>
@@ -230,7 +230,7 @@
                     ”Antes de criar mais ótimos conteúdos descubra primeiro como você vai divulgá-lo.”
                 </blockquote>
                 <div class="author">
-                    <img src="assets/img/img_quote_2.png" alt="">
+                    <img src="assets/img/img_quote_2.png" alt="Foto de rosto de Joe Pulizzi e Newt Barrett">
                     <h3> Joe Pulizzi e Newt Barrett </h3>
                 </div>
             </div>
@@ -240,7 +240,7 @@
     <section class="cta-section">
         <div class="container">
             <h2> Quer sair da caixa? </h2>
-            <a href="#cadastrar" class="cta scroll"> Então vamos tomar um café :) </a>
+            <a href="#cadastrar" class="cta scroll" aria-label="Botão que irá redirecionar você para o formulário de contato."> Então vamos tomar um café :) </a>
         </div>
     </section>
 
@@ -250,12 +250,12 @@
             <div class="col-12 col-md-4 mb-5 pb-5">
                 <div class="comment">
                     <p> 
-                        Mussum Ipsum, cacilds vidis litro abertis. Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus. Cevadis im ampola pa arma uma pindureta. Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl.
+                        Agradeço o gerenciamento da agência, a minha página ganhou mais visibilidade devido os conteúdos do Instagram. Adoro a forma que vocês pensam em cada detalhe, ajudando na minha carreira profissional e com o design maravilhoso da página.
                     </p>
                     <div class="author-comment">
-                        <img src="assets/img/img_author.png" alt="">
-                        <span class="author-name"> Augustus Cesar </span>
-                        <span class="author-company"> • Roma Service </span>
+                        <img src="assets/img/img_author_1.png" alt="Foto de rosto da Tatyane, mulher branca, com cabelos longos e escuros, sorrindo, com uniforme branco.">
+                        <span class="author-name"> Tatyane </span>
+                        <span class="author-company"> • Massoterapeuta </span>
                     </div>
                 </div>
             </div>
@@ -335,8 +335,8 @@
         <div class="container">
             <h2> Precisa conversar sobre<br>
                 conteúdos que convertem? </h2>
-            <a href="javascript:;" class="cta"> 
-                <img src="assets/svg/ico_whatsapp.svg" alt="">
+            <a href="https://api.whatsapp.com/send?phone=5511993593186" class="cta" target="blank" aria-label="Link que irá redirecionar você para conversar pelo Whatsapp com a BEEBOX Agência"> 
+                <img src="assets/svg/ico_whatsapp.svg" alt="Ícone do Whatsapp">
                 Então vamos tomar um café :) 
             </a>
         </div>
@@ -346,7 +346,7 @@
         <div class="row">
             <div class="col-12 col-md-4 m-0 p-0 div-img-contact">
                 <div class="img-contact"> 
-                    <!-- <img src="assets/img/img_contato.jpg" alt=""> -->
+                    
                 </div>
             </div>
             <div class="col-12 offset-0 col-md-5 offset-md-1 col-lg-6">
@@ -357,30 +357,30 @@
                             <label for="">
                                 Seu nome * 
                             </label>
-                            <input type="text" name="nome" id="nome" required>
+                            <input type="text" name="nome" id="nome" required aria-label="Digite o seu nome completo">
                         </div>
 
                         <div class="input-group">
                             <label for="">
                                 E-mail * 
                             </label>
-                            <input type="email" name="email" id="email" required>
+                            <input type="email" name="email" id="email" required aria-label="Digite o seu email">
                         </div>
 
                         <div class="input-group">
                             <label for="">
                                 Telefone * 
                             </label>
-                            <input type="tel" name="tel" id="tel" required>
+                            <input type="tel" name="tel" id="tel" required aria-label="Digite o seu telefone">
                         </div>
 
                         <div class="input-group">
                             <label for="">
                                 Como podemos te ajudar? * 
                             </label>
-                            <textarea name="msg" id="msg" required></textarea>
+                            <textarea name="msg" id="msg" required></textarea aria-label="Digite como a BEEBOX pode ajudar você.">
                         </div>
-                        <input type="submit" value="Enviar">
+                        <input type="submit" value="Enviar" aria-label="Botão para enviar os seus dados para a BEEBOX.">
                     </form>
                 </div>
             </div>
@@ -390,22 +390,22 @@
     <footer>
         <div class="container">
             <div class="info-footer-1">
-                <img src="assets/svg/logo_color.svg" alt="Logo BeeBox Agência" class="brand">
+                <img src="assets/svg/logo_color.svg" alt="Logo BeeBox Agência" class="brand" alt="Logo da empresa, escrito BEEBOX Agência, com um desenho de uma abelha simplificada, composta por 4 formas hexagonais, em amarelo e branco." class="brand">
                 <span class="slogan"> #getoutofthebox </span>
                 <ul class="redes-sociais">
                     <li> 
                         <a href="https://www.facebook.com/Ag%C3%AAncia-Bee-Box-113560353724333/" target="blank"> 
-                            <img src="assets/svg/ico_facebook.svg" alt="">
+                            <img src="assets/svg/ico_facebook.svg" alt="Ícone do Facebook">
                         </a> 
                     </li>
                     <li> 
                         <a href="https://www.instagram.com/agenciabeebox/" target="blank"> 
-                            <img src="assets/svg/ico_instagram.svg" alt="">
+                            <img src="assets/svg/ico_instagram.svg" alt="Ícone do Instagram">
                         </a> 
                     </li>
                     <li> 
                         <a href="https://www.linkedin.com/company/ag%C3%AAncia-bee-box" target="blank"> 
-                            <img src="assets/svg/ico_linkedin.svg" alt="">
+                            <img src="assets/svg/ico_linkedin.svg" alt="Ícone do Linkeding">
                         </a> 
                     </li>
                 </ul>
@@ -427,11 +427,8 @@
                                 <a href="mailto:beebox.ag@gmail.com"> beebox.ag@gmail.com </a>
                             </li>
                             <li>
-                                <a href="tel:11993593186"> (11) 9 9359-3186 </a>
+                                <a href="https://api.whatsapp.com/send?phone=5511993593186" target="blank"> (11) 9 9359-3186 </a>
                             </li>
-                            <!-- <li>
-                                <a href="tel:11993593186"> (11) 9 9359-3186 </a>
-                            </li> -->
                         </ul>
                     </div>
                 </div>
@@ -441,7 +438,6 @@
 
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"> </script> -->
     <script src="scripts/app.js"> </script>
     
 </body>
