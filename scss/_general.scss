@@ -17,7 +17,7 @@ body {
 // Header
 header {
    margin-top: 1rem;
-   .container {
+   .container { 
       display: flex;
       justify-content: space-between;
       align-content: center;
@@ -162,8 +162,8 @@ main {
    opacity: 0;
    visibility: hidden;
    @include fontSize(20px);
-   width: 3rem;
-   height: 3rem;
+   width: 2.5rem;
+   height: 2.5rem;
    border-radius: .5rem;
    background: $color-primary;
    @include transition(all 0.3s ease-in-out 0s);
@@ -181,8 +181,8 @@ main {
       @include width(20px);
       @include height(20px);
       color: $color-context-1;
-      left: .7rem;
-      top: .6rem;
+      left: .5rem;
+      top: .4rem;
       position: relative;
    }
 }
@@ -587,6 +587,24 @@ footer {
             }
          }
       }
+   }
+}
+
+// Author
+.author {
+   @include height(64px);
+   margin: .6rem 0 0 0;
+   padding: 0;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   color: $color-white;
+   text-align: center;
+   img {
+      @include width(64px);
+      height: auto;
+   }
+   span {
+       margin-right: .5rem;
    }
 }
 

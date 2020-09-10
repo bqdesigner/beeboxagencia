@@ -4,8 +4,8 @@
 $nomeremetente     = $_POST['nome'];
 $emailremetente    = trim($_POST['email']);
 $fone	   = $_POST['tel'];
-$emaildestinatario = 'bqdesigner@outlook.com'; 
-$assunto		   = 'Contato BEEBOX AGÊNCIA';
+$emaildestinatario = 'beebox.ag@gmail.com'; 
+$assunto		   = 'Formulário preenchido no site BEEBOX AGÊNCIA';
 $descProjeto	   = $_POST['msg'];
  
 /* Montando a mensagem a ser enviada no corpo do e-mail. */
@@ -25,5 +25,5 @@ $headers .= "Return-Path: $emaildestinatario \r\n"; // return-path
 $envio = mail($emaildestinatario, $assunto, $mensagemHTML, $headers); 
  
 if($envio)
-    echo "<script>location.href='http://appbant.com/obrigado.html'</script>"; // Página que será redirecionada
+    echo "<script>location.href='https://agenciabeebox.com.br'</script>"; // Página que será redirecionada
 ?>
