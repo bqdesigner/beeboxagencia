@@ -138,7 +138,7 @@
         .servico {
             width: 95%;
             left: 5%;
-            @include height(400px);
+            @include height(425px);
             p {
                 line-height: 24px;
             }
@@ -246,4 +246,19 @@
         margin-bottom: 7rem;
      }
 
+}
+@media (max-width: 320px) {
+    main {
+        .img-entrada {
+            top: -5%;
+            right: 3%;
+            position: relative;
+            width: 100%;
+         }
+    }
+    .content-2 {
+        .servico {
+            @include height(480px);
+        }
+    }
 }
